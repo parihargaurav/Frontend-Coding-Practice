@@ -1,0 +1,37 @@
+.product-card {
+  display: flex;
+  width: 110px;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  background-color: #f39494;
+}
+
+.product-img {
+  width: 100px;
+  height: 100px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.page-number {
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid #e5e5e5;
+  background-color: #b32929;
+  cursor: pointer;
+}
+
+.pagination-container {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #192970;
+}
